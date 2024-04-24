@@ -1,0 +1,92 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    font-weight: 600;/*negrito*/
+    font-size: 25px;/*tamanho da fonte*/
+    color: #989d9c;
+    cursor: pointer;
+    text-decoration: none;/*tirar a linha de baixo*/
+    margin-right: 23px;/*espaçamento externo a direita*/
+}
+
+.button-header{
+    background-color: #5e2e26;
+    border-radius: 20.5px;
+    width: 162px;
+    height: 41px;
+    border: none;/*tirando a borda do botão*/
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    background-color: rgb(38, 86, 94);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 122px;/*deixa o espaçamento entre os textos iguais*/
+    color: #515151;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #515151;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main{
+    background-color: #2a7886;
+    border-radius: 25px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    /* colocando o efeito de sombra no texto */
+    filter: drop-shadow(0 3px 3px #1b1b1bce);
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 100px;
+    transition: 1.5s;
+}
+
+.button-main:hover{
+    background-color: #0bafcc;
+    border-radius: 2px;
+    filter: drop-shadow(0 4px 4px #636161e0);
+}
+
+
